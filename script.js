@@ -38,7 +38,7 @@ async function start() {
     const userDescriptor = detections.descriptor
 
     // 2. Завантажуємо всі фотографії з GitHub
-    const labels = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13']
+    const labels = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14']
 
     for (const label of labels) {
       const imageUrls = [
